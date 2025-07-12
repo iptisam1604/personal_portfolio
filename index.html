@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Interactive Portfolio</title>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav>
+        <div class="container nav-container">
+            <a href="#" class="logo">
+                <h2> Personal <span>  Portfolio </span></h2>
+            </a>
+            <ul>
+                <li><a href="#About"> About </a></li>
+                <li><a href="#Projects"> Projects </a></li>
+                <li><a href="#Contact"> Contact </a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Header Section -->
+    <header>
+        <div class="header-container container">
+            <div class="header-left">
+                <h1>Hello, <span>I am Iptisam </span></h1>
+                <h4> Aspiring Frontend Developer</h4>
+                <div class="header-actions">
+                    <a href="cv.pdf" download class="btn btn-primary">Download CV</a>
+                    <a href="#About" class="btn">Read more</a>
+                </div>
+            </div>
+            <div class="header-right">
+                <img src="profile.jpeg" alt="profile" width="600" height="450">
+            </div>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="About">
+        <h1><span>A</span>BOUT</h1>
+        <div class="container about-container">
+            <p> Aspiring <span>Frontend Developer</span>,Passionate about creating interactive web experiences using <span> HTML, CSS, JavaScript and React.js </span> 
+                I strive to stay updated with the latest <span>web technologies </span> and create responsive and user-friendly web interfaces.</p>
+        </div>
+        <div class="about-content">
+            <article class="about-article">
+                <img src="email.jpeg" alt="Email Icon">
+                <h5>EMAIL</h5>
+                <p>iptu1604@gmail.com</p>
+            </article>
+            <article class="about-article">
+                <img src="linkedIn.jpeg" alt="LinkedIn Icon">
+                <h5>LinkedIn</h5>
+                <p>https://www.linkedin.com/in/iptisam1803/</p>
+            </article>
+            <article class="about-article">
+                <img src="discord.jpeg" alt="Phone Icon">
+                <h5> discord </h5>
+                <p> iptisam1604 </p>
+            </article>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="Projects">
+        <h1><span>My</span> Projects</h1>
+        <div class="container projects-container">
+            <!-- Project 1 -->
+            <div class="project-card">
+                <img src="blog.jpeg" alt="Project 1" height="300" width="500">
+                <h3> Blog Website </h3>
+                <p> A Content-sharing platform where users can write, edit, and share blogs with real-time comment functionality, built using javascript. </p>
+            </div>
+
+            <!-- Project 2 -->
+            <div class="project-card">
+                <img src="e-commerce.jpeg" alt="Project 2" height="300" width="500">
+                <h3> E-Commerce Website</h3>
+                <p> An online shopping platform with a seamless UI/UX design, built using React.js and integrated with a secure payment gateway. </p>
+            </div>
+
+            <!-- Project 3 -->
+            <div class="project-card">
+                <img src="weather.jpeg" alt="Project 3" height="300" width="500">
+                <h3> Weather App </h3>
+                <p> A real-time weather application that fetches weather data using OpenWeather API. Built using Javascript, HTML and CSS. </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="Contact">
+        <h1><span> Contact </span> me </h1>
+        <div class="contact-container container">
+            <form>
+                <div class="form-top">
+                    <input type="text" placeholder="First Name" required>
+                    <input type="text" placeholder="Last Name" required>
+                    <input type="email" placeholder="Email" required>
+                    <input type="number" placeholder="Phone Number" required>
+                </div>
+                <div class="form-bottom">
+                    <textarea name="message" placeholder="Message"></textarea>
+                    <button type="submit" class="btn btn-primary">Submit Now</button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        &copy; 2025. All Rights Reserved.
+    </footer>
+</body>
+
+</html>
